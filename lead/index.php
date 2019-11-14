@@ -1,7 +1,7 @@
 <?php
 $page_title = "Service Offering";
 ?>
-<?php require_once ('processlead.php'); ?>
+<?php require_once ('../processlead.php'); ?>
 <!doctype html>
 <html>
 <head>
