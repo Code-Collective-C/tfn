@@ -1,0 +1,60 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/custom.css">
+ <style>
+ 
+   h2 {
+     font-size:3em;
+   }
+   .storeButton {
+   display:inline; 
+   width:20em; 
+   cursor: pointer;}
+ </style>
+</head>
+<script>
+
+
+function redirect(){
+
+var appleStoreLink = 'https://apps.apple.com/app/id1474975122'
+var playStoreLink ='https://play.google.com/store/apps/details?id=com.truckfuelnet.driver'
+
+var thingToCheck = navigator.userAgent;
+
+ if (thingToCheck.indexOf('iPhone')>0||thingToCheck.indexOf('iPad')>0) {
+  window.location = appleStoreLink;
+  }
+  if (thingToCheck.indexOf('Android')>0) {
+  window.location = playStoreLink;
+  }
+  
+  document.getElementById('applestore').onclick = function(){ window.location = appleStoreLink; }
+  document.getElementById('playstore').onclick = function(){ window.location = playStoreLink; }
+  document.getElementById('platform').innerText = thingToCheck;
+}
+
+
+
+</script>
+
+<body>
+<div id='platform' style="display:none;"></div>
+<img src='https://tfn.co.za/images/tfn_logo.png' style="width:40em;"/>
+<h2>Get the TFN Driver app!</h2>
+<div>
+<img src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' id='playstore' class='storeButton' text='Android - Play store'
+ alt='Android - Play store'></img>
+ <img src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred.png' id='applestore' style='margin:1.2em; width:16.1em;' class='storeButton' text='Apple - App store' alt='Apple - App store'>
+ </img>
+ 
+
+ </div>
+
+</body>
+
+<script>
+redirect();
+</script>
+
+</html>

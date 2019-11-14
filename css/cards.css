@@ -1,0 +1,70 @@
+.card-img-top {
+    margin-top: -1px;
+    width: 35px;
+}
+.card-img-bottom {
+    margin-bottom: -18px;
+    width: 35px;
+}
+.card-img-bottom.rev {
+    margin-bottom: -1px;
+    width: 35px;
+}
+.card-img-top.rev {
+    margin-top: -18px;
+    width: 35px;
+}
+.card {
+    border: 1px solid #000;
+    border-radius: 0px;
+}
+.card-header {
+	background-color: #fff;;
+	border-bottom: none;
+    text-align: center;
+    color: #f37321;
+    font-size: 18px;
+    font-weight: 700;
+}
+.card-footer {
+	background-color: #fff;;
+	border-top: none;
+}
+.pica {
+    background: #f2f2f2 url("../images/prodpic_01.jpg") no-repeat top center;
+    background-size: cover;
+    min-height: 150px;
+}
+.picb {
+    background: #f2f2f2 url("../images/prodpic_02.jpg") no-repeat top center;
+    background-size: cover;
+    min-height: 150px;
+}
+.picc {
+    background: #f2f2f2 url("../images/prodpic_03.jpg") no-repeat top center;
+    background-size: cover;
+    min-height: 150px;
+}
+.picd {
+    background: #f2f2f2 url("../images/prodpic_04.jpg") no-repeat top center;
+    background-size: cover;
+    min-height: 150px;
+}
+.pice {
+    background: #f2f2f2 url("../images/prodpic_05.jpg") no-repeat top center;
+    background-size: cover;
+    min-height: 150px;
+}
+.card-body {
+    text-align: center;
+}
+.btn.btn-light.btn-brd {
+    border: 1px solid #666;
+    margin-bottom: 6px;
+    display: block;
+    font-size: 14px;
+    white-space: normal;
+}
+.card-group{
+    margin-top: 18px
+}
