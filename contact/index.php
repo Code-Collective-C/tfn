@@ -1,53 +1,53 @@
-<?php 
+<?php
 $page_title = "Contact";
-require_once ('process.php'); ?>
+require_once ('../process.php'); ?>
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>TruckFuelNet - <?php echo $page_title;?></title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">   
-    <link rel="stylesheet" type="text/css" href="css/custom.css">    
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
 </head>
 
 <body>
-    
+
 <!-- BANNER & NAV -->
- <?php require_once('inc/banner.html') ?>   
+ <?php require_once('../inc/banner.html') ?>
 <!-- MARQUEE -->
 <!-- iFrame content Gregg -->
     <div class="container scroller">
         <div class="row">
-            <div class="col-md-3 pz-logo"><a href="promo_zone.php"><img src="images/pixel.gif" width="100%" height="80" alt=""/></a></div>
-            <div class="col-md-9 pp_info"><?php require("iframe/price_project.html"); ?></div>
+            <div class="col-md-3 pz-logo"><a href="promo_zone.php"><img src="/images/pixel.gif" width="100%" height="80" alt=""/></a></div>
+            <div class="col-md-9 pp_info"><?php require("../iframe/price_project.html"); ?></div>
         </div>
-    </div>    
+    </div>
 <!-- INTRO -->
 <div class="container intro">
     <div class="row">
         <div class="col-lg-8 h1orange align-middle">
-            <img class="pull-left h1img" src="images/contact_icon.png"  alt=""/>
-            <img class="pull-right h1arw" src="images/orange_chev.png"  alt=""/>
+            <img class="pull-left h1img" src="/images/contact_icon.png"  alt=""/>
+            <img class="pull-right h1arw" src="/images/orange_chev.png"  alt=""/>
             <h1>Our contact details</h1>
         </div>
         <div class="col-lg-4 h3green">
-            <img class="pull-left" src="images/green_rev_chev.png" width="35" height="70" alt=""/> 
+            <img class="pull-left" src="/images/green_rev_chev.png" width="35" height="70" alt=""/>
             <p>How TFN saves you money &ndash; <strong><br>
                 <a class="clicky" href="lead.php">click here</a> to SAVE with TFN</strong></p>
         </div>
     </div>
     <p class="clearfix"></p>
 
-</div>    
+</div>
 <!-- HOME CARDS -->
  <div class="container">
     <div class="row">
         <article class="col-md-8">
             <div class="container">
-            
-                
+
+
                                     <div class="row">
                         <div class="col-md-4">
                          <div class="bodyheading"><strong>Office Number</strong></div>
@@ -78,7 +78,7 @@ require_once ('process.php'); ?>
 					<?php if (isset($err_firstnamepattern)) { echo $err_firstnamepattern; } ?>
 				</div>
         	</div>
-        	
+
        	  <div class="row form-group">
 				<label for="surname_id" class="control-label col-md-4">Last name:</label>
 				<div class="col-md-8">
@@ -95,7 +95,7 @@ require_once ('process.php'); ?>
 					<?php if (isset($err_emailaddpattern)) { echo $err_emailaddpattern; } ?>
 				</div>
         	</div>
-        	
+
        	  <div class="row form-group">
 		    <label for="cellno_id" class="control-label col-md-4">Contact number:</label>
 				<div class="col-md-8">
@@ -113,53 +113,53 @@ require_once ('process.php'); ?>
       	</div>
     <p class="clearfix"></p>
         	<div class="form-group">
-				<div class="col-md-12">	
+				<div class="col-md-12">
 				<input name="submitbut" type="submit" class="btn btn-light pull-right" id="regBut" value="Submit">
-			</div>	
+			</div>
 	</div>
                 <p class="clearfix"></p>
 		</form>
                         </div>
-                    </div> 
+                    </div>
                     <p class="clearfix"></p>
                  <div class="row">
                     <div class="col-md-7 h2con">
                         <h2>Map to offices</h2>
                     </div>
-                </div>    
-            
+                </div>
+
 <section>
-                    
-                    
+
+
                     <div class="row">
                         <div class="col-md-12">
-                           
-         
-                        </div>    
+
+
+                        </div>
      <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3583.384332639856!2d28.239040000000003!3d-26.08637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9514c49a47c7f7%3A0x9317523994440077!2s111+Monument+Rd%2C+Kempton+Park%2C+1619%2C+South+Africa!5e0!3m2!1sen!2s!4v1420547680924"  width="100%" height="400" frameborder="0"></iframe>
 
                     </div>
                     </section>
                     <p class="clearfix"></p>
-                
-                
+
+
             </div>
-            
-            
-            
+
+
+
         </article>
 
-  <!-- ASIDE -->      
-      
- <?php require_once('inc/aside.html') ?>   
+  <!-- ASIDE -->
+
+ <?php require_once('../inc/aside.html') ?>
     </div>
 </div>
 
 <!-- FOOTER -->
- <?php require_once('inc/footer.html') ?>  
- <?php include_once("analyticstracking.php") ?>
-    <script src="js/jquery_3_3_1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/popper.min.js"></script>
+ <?php require_once('../inc/footer.html') ?>
+ <?php include_once("../analyticstracking.php") ?>
+    <script src="/js/jquery_3_3_1.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/popper.min.js"></script>
 </body>
 </html>
