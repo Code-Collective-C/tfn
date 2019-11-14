@@ -31,7 +31,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- iFrame content Gregg -->
     <div class="container scroller">
         <div class="row">
-            <div class="col-md-3 pz-logo"><a href="promo_zone.php"><img src="/images/pixel.gif" width="100%" height="80" alt=""/></a></div>
+            <div class="col-md-3 pz-logo"><a href="/promo_zone/"><img src="/images/pixel.gif" width="100%" height="80" alt=""/></a></div>
             <div class="col-md-9 pp_info"><?php require("../iframe/price_project.html"); ?></div>
         </div>
     </div>

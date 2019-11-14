@@ -19,7 +19,7 @@ $page_title = "Service Offering";
 <!-- iFrame content Gregg -->
     <div class="container scroller">
         <div class="row">
-            <div class="col-md-3 pz-logo"><a href="promo_zone.php"><img src="/images/pixel.gif" width="100%" height="80" alt=""/></a></div>
+            <div class="col-md-3 pz-logo"><a href="/promo_zone/"><img src="/images/pixel.gif" width="100%" height="80" alt=""/></a></div>
             <div class="col-md-9 pp_info"><?php require("../iframe/price_project.html"); ?></div>
         </div>
     </div>
@@ -35,7 +35,7 @@ $page_title = "Service Offering";
         <div class="col-lg-4 h3green">
             <img class="pull-left" src="/images/green_rev_chev.png" width="35" height="70" alt=""/>
             <p>How TFN saves you money &ndash; <strong><br>
-                <a class="clicky" href="lead.php">click here</a> to SAVE with TFN</strong></p>
+                <a class="clicky" href="/lead/">click here</a> to SAVE with TFN</strong></p>
         </div>
     </div>
     <p class="clearfix"></p>

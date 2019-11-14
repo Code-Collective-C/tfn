@@ -20,7 +20,7 @@ $page_title = "Home";
 <!-- iFrame content Gregg -->
     <div class="container scroller">
         <div class="row">
-            <div class="col-md-3 pz-logo"><a href="promo_zone.php"><img src="/images/pixel.gif" width="100%" height="80" alt=""/></a></div>
+            <div class="col-md-3 pz-logo"><a href="/promo_zone/"><img src="/images/pixel.gif" width="100%" height="80" alt=""/></a></div>
             <div class="col-md-9 pp_info"><?php require("iframe/price_project.html"); ?></div>
         </div>
         <div class="clearer"></div>
@@ -36,7 +36,7 @@ $page_title = "Home";
         <div class="col-lg-4 h3green">
             <img class="pull-left" src="/images/green_rev_chev.png" width="35" height="70" alt=""/>
             <p>How TFN saves you money &ndash; <strong><br>
-                <a class="clicky" href="lead.php">click here</a> to SAVE with TFN</strong></p>
+                <a class="clicky" href="/lead/">click here</a> to SAVE with TFN</strong></p>
         </div>
     </div>
     <p class="clearfix"></p>
@@ -56,12 +56,12 @@ $page_title = "Home";
                     <img class="img-fluid" src="/images/service_01.jpg" alt=""/>
                 </div>
                 <div class="col-md-6 nb service">
-                    <h2><img class="pull-left" src="/images/arrow_right.png" alt=""/><a href="service.php">Service Offering</a></h2>
+                    <h2><img class="pull-left" src="/images/arrow_right.png" alt=""/><a href="/service/">Service Offering</a></h2>
                 </div>
             </div>
             <div class="row row2">
                 <div class="col-md-6 nb product">
-                    <h2><a href="products.php">&nbsp;Products &amp; Services&nbsp;</a><img class="pull-right" src="/images/arrow_left.png" alt=""/></h2>
+                    <h2><a href="/products/">&nbsp;Products &amp; Services&nbsp;</a><img class="pull-right" src="/images/arrow_left.png" alt=""/></h2>
                 </div>
                 <div class="col-md-6 nb">
                     <img class="img-fluid" src="/images/products_02.jpg" alt=""/>
@@ -72,12 +72,12 @@ $page_title = "Home";
                     <img class="img-fluid" src="/images/benefits_01.jpg" alt=""/>
                 </div>
                 <div class="col-md-6 nb benefit">
-                    <h2><img class="pull-left" src="/images/arrow_right.png" alt=""/><a href="benefits.php">Benefits</a></h2>
+                    <h2><img class="pull-left" src="/images/arrow_right.png" alt=""/><a href="/benefits/">Benefits</a></h2>
                 </div>
             </div>
             <div class="row row2">
                 <div class="col-md-6 nb network">
-                    <h2><a href="network.php">&nbsp;Our Network&nbsp;</a><img class="pull-right" src="/images/arrow_left.png" alt=""/></h2>
+                    <h2><a href="/network/">&nbsp;Our Network&nbsp;</a><img class="pull-right" src="/images/arrow_left.png" alt=""/></h2>
                 </div>
                 <div class="col-md-6 nb">
                     <img class="img-fluid" src="/images/network_02.jpg" alt=""/>

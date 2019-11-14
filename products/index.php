@@ -22,7 +22,7 @@ $page_title = "Products & Services";
 <!-- iFrame content Gregg -->
     <div class="container scroller">
         <div class="row">
-            <div class="col-md-3 pz-logo"><a href="promo_zone.php"><img src="/images/pixel.gif" width="100%" height="80" alt=""/></a></div>
+            <div class="col-md-3 pz-logo"><a href="/promo_zone/"><img src="/images/pixel.gif" width="100%" height="80" alt=""/></a></div>
             <div class="col-md-9 pp_info"><?php require("../iframe/price_project.html"); ?></div>
         </div>
     </div>
@@ -37,7 +37,7 @@ $page_title = "Products & Services";
         <div class="col-lg-4 h3green">
             <img class="pull-left" src="/images/green_rev_chev.png" width="35" height="70" alt=""/>
             <p>How TFN saves you money &ndash; <strong><br>
-                <a class="clicky" href="lead.php">click here</a> to SAVE with TFN</strong></p>
+                <a class="clicky" href="/lead/">click here</a> to SAVE with TFN</strong></p>
         </div>
     </div>
     <p class="clearfix"></p>
@@ -58,7 +58,7 @@ $page_title = "Products & Services";
         <div class="card-body">
             <a class="btn btn-light btn-brd" href="#" data-toggle="modal" data-target="#overview">WATCH VIDEO</a>
             <a href="/downloads/Management System.pdf" target="_blank" class="btn btn-light btn-brd">DOWNLOAD BROCHURE</a>
-            <a class="btn btn-light btn-brd" href="/refuel_management.php">READ MORE</a>
+            <a class="btn btn-light btn-brd" href="/refuel_management/">READ MORE</a>
         </div>
             <img src="/images/down.png" alt="Card image cap" width="35" height="18" class="card-img-bottom ml-auto mr-auto">
     </div>
@@ -76,7 +76,7 @@ $page_title = "Products & Services";
         <div class="card-body">
             <a class="btn btn-light btn-brd" href="#"  data-toggle="modal" data-target="#refuel2save">WATCH VIDEO</a>
             <a href="/downloads/Refuel2Save.pdf" target="_blank" class="btn btn-light btn-brd">DOWNLOAD BROCHURE</a>
-            <a class="btn btn-light btn-brd" href="/refuel2save.php">READ MORE</a>
+            <a class="btn btn-light btn-brd" href="/refuel2save/">READ MORE</a>
         </div>
             <img src="/images/down.png" alt="Card image cap" width="35" height="18" class="card-img-bottom ml-auto mr-auto">
     </div>
@@ -95,7 +95,7 @@ $page_title = "Products & Services";
                 <div class="card-header"><img class="img-fluid" src="/images/promozone_alt.png" alt="Refuel2Win"/></div>
         <div class="card-body">
             <a class="btn btn-light btn-brd" href="#" data-toggle="modal" data-target="#promozone">WATCH VIDEO</a>
-            <a class="btn btn-light btn-brd" href="/promo_zone.php">READ MORE</a>
+            <a class="btn btn-light btn-brd" href="/promo_zone/">READ MORE</a>
         </div>
 
 
@@ -115,7 +115,7 @@ $page_title = "Products & Services";
         <div class="card-header"><img class="img-fluid" src="/images/refuel2win.png" alt="Refuel2Win"/></div>
 <!--        <div class="card-body">
             <a href="/downloads/Refuel2Win.pdf" target="_blank" class="btn btn-light btn-brd">DOWNLOAD BROCHURE</a>
-            <a class="btn btn-light btn-brd" href="refuel2win.php">READ MORE</a>
+            <a class="btn btn-light btn-brd" href="/refuel2win/">READ MORE</a>
         </div>-->
         <div class="card-body">
            <button type="button" class="btn btn-light btn-brd btn-block" href="#" disabled>Coming Soon</button>
@@ -135,7 +135,7 @@ $page_title = "Products & Services";
         <div class="card-header"><img class="img-fluid" src="/images/refuel2earn.png" alt="RoadWallet"/></div>
 <!--        <div class="card-body">
             <a class="btn btn-light btn-brd" href="#">WATCH VIDEO</a>
-            <a class="btn btn-light btn-brd" href="refuel2earn.php">READ MORE</a>
+            <a class="btn btn-light btn-brd" href="r/efuel2earn/">READ MORE</a>
         </div>-->
         <div class="card-body">
            <button type="button" class="btn btn-light btn-brd btn-block" href="#" disabled>Coming Soon</button>
@@ -158,7 +158,7 @@ $page_title = "Products & Services";
 <!--        <div class="card-body">
             <a class="btn btn-light btn-brd" href="#">WATCH VIDEO</a>
             <a href="/downloads/RoadWallet.pdf" target="_blank" class="btn btn-light btn-brd">DOWNLOAD BROCHURE</a>
-            <a class="btn btn-light btn-brd" href="road_wallet.php">READ MORE</a>
+            <a class="btn btn-light btn-brd" href="/road_wallet/">READ MORE</a>
         </div>-->
         <div class="card-body">
            <button type="button" class="btn btn-light btn-brd btn-block" href="#" disabled>Coming Soon</button>
