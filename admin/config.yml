@@ -24,7 +24,7 @@ collections:
     name: "website-content-pricing"
     editor:
       preview: false
-    file:
+    files:
       - label: "Service offering page"
         name: "service-offering-page"
         file: "service.html"
@@ -37,7 +37,7 @@ collections:
           - { label: "Body", name: "body", widget: "hidden" }
       - label: "FAQs"
         name: "faqs"
-        file: "fqa.html"
+        file: "faq.html"
         fields:
           - {
               label: "How do I become a customer",
