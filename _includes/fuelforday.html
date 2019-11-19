@@ -370,9 +370,12 @@ var fuelForTodayList = [
     'Those pursuing greatness are worthy of pursuit'
 ];
 
-var fuels = fuelForTodayList.length;
-var randomNumber = Math.floor(Math.random() * Math.floor(fuels));
-var fuelForToday = fuelForTodayList[randomNumber];
+var now = new Date();
+var start = new Date(now.getFullYear(), 0, 0);
+var diff = now - start;
+var oneDay = 1000 * 60 * 60 * 24;
+var day = Math.floor(diff / oneDay);
+var fuelForToday = fuelForTodayList[day-1];
 var fftd = `
 <div class="container daily">
     <div class="row">
