@@ -190,23 +190,16 @@
     </div>
 </div>
 
-<!-- FOOTER -->
- {% include footer.html %}
- {% include analyticstracking.html %}
-  {% include vid_overview.html %}
-    {% include vid_refuel2save.html %}
-    {% include vid_promozone.html %}
-    <script src="/js/jquery_3_3_1.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-         <script>
-     $(function(){
+{% include vid_overview.html %}
+{% include vid_refuel2save.html %}
+{% include vid_promozone.html %}
+<script>
+$(function(){
     $('#promozone, #refuel2save, #overview').modal({
         show: false
     }).on('hidden.bs.modal', function(){
         $(this).find('video')[0].pause();
     });
 });
-     </script>
-</body>
-</html>
+</script>
+{% include page-footer.html %}

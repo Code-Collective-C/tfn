@@ -70,27 +70,19 @@ tagline: "TruckFuelNet provides customers with the  best **on-road diesel discou
 </div>
 <!-- DAILY -->
 {% include fuelforday.html %}
-<!-- FOOTER -->
- {% include footer.html %}
- {% include analyticstracking.html %}
 
-    <script src="/js/jquery_3_3_1.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-
-    <!-- Include Netlify Identity for authentication -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-    <script>
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", user => {
-            if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-                });
-            }
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
             });
         }
-    </script>
-</body>
-</html>
+        });
+    }
+</script>
+<!-- Include Netlify Identity for authentication -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+{% include page-footer.html %}
