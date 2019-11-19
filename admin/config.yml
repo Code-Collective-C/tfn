@@ -2,7 +2,7 @@ backend:
   name: git-gateway
 media_folder: "images"
 collections:
-  - label: "Website Content"
+  - label: "Website content"
     name: "website-content"
     editor:
       preview: false
@@ -13,6 +13,12 @@ collections:
         fields:
           - { label: "Heading 1", name: "heading1", widget: "string" }
           - { label: "Tagline", name: "tagline", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "hidden" }
+      - label: "Company page"
+        name: "company-page"
+        file: "company.html"
+        fields:
+          - { label: "Key Facts", name: "key-facts", widget: "markdown" }
           - { label: "Body", name: "body", widget: "hidden" }
   - label: "Website content - pricing"
     name: "website-content-pricing"
