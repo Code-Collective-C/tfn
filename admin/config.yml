@@ -6,42 +6,42 @@ collections:
     name: "website-content"
     editor:
       preview: false
-    files:
-      - label: "Home page"
-        name: "home-page"
-        file: "index.html"
-        fields:
-          - { label: "Heading 1", name: "heading1", widget: "string" }
-          - { label: "Tagline", name: "tagline", widget: "markdown" }
-          - { label: "Body", name: "body", widget: "hidden" }
-      - label: "Company page"
-        name: "company-page"
-        file: "company.html"
-        fields:
-          - { label: "Key Facts", name: "key-facts", widget: "markdown" }
-          - { label: "Body", name: "body", widget: "hidden" }
-  - label: "Website content - pricing"
-    name: "website-content-pricing"
-    editor:
-      preview: false
-    files:
-      - label: "Service offering page"
-        name: "service-offering-page"
-        file: "service.html"
-        fields:
-          - {
-              label: "Monthly access fee",
-              name: "monthly-access-fee",
-              widget: "markdown",
-            }
-          - { label: "Body", name: "body", widget: "hidden" }
-      - label: "FAQs"
-        name: "faqs"
-        file: "faq.html"
-        fields:
-          - {
-              label: "How do I become a customer",
-              name: "how-do-i-become-a-customer",
-              widget: "markdown",
-            }
-          - { label: "Body", name: "body", widget: "hidden" }
+#     files:
+#       - label: "Home page"
+#         name: "home-page"
+#         file: "index.html"
+#         fields:
+#           - { label: "Heading 1", name: "heading1", widget: "string" }
+#           - { label: "Tagline", name: "tagline", widget: "markdown" }
+#           - { label: "Body", name: "body", widget: "hidden" }
+#       - label: "Company page"
+#         name: "company-page"
+#         file: "company.html"
+#         fields:
+#           - { label: "Key Facts", name: "key-facts", widget: "markdown" }
+#           - { label: "Body", name: "body", widget: "hidden" }
+#   - label: "Website content - pricing"
+#     name: "website-content-pricing"
+#     editor:
+#       preview: false
+#     files:
+#       - label: "Service offering page"
+#         name: "service-offering-page"
+#         file: "service.html"
+#         fields:
+#           - {
+#               label: "Monthly access fee",
+#               name: "monthly-access-fee",
+#               widget: "markdown",
+#             }
+#           - { label: "Body", name: "body", widget: "hidden" }
+#       - label: "FAQs"
+#         name: "faqs"
+#         file: "faq.html"
+#         fields:
+#           - {
+#               label: "How do I become a customer",
+#               name: "how-do-i-become-a-customer",
+#               widget: "markdown",
+#             }
+#           - { label: "Body", name: "body", widget: "hidden" }
