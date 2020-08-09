@@ -235,6 +235,9 @@ a i.fa {
   overflow: hidden;
   padding: 0px;
 }
+
+
+
 .repeater {
   font-size: 13px;
   line-height: 18px;
@@ -273,7 +276,6 @@ a i.fa {
 }
 .marquee {
   height: 80px;
-  width: 864px;
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
