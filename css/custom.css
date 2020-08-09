@@ -227,6 +227,9 @@ a i.fa {
 .pz-logo {
   background: url("../images/promozone.png") no-repeat top left;
   background-size: contain;
+  position: absolute;
+  z-index: 1;
+}
 }
 .pp_info {
   overflow: hidden;
