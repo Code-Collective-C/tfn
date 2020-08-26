@@ -6,3 +6,4 @@
   from = "/"
   to = "/network"
   status = 302
+  force = true
