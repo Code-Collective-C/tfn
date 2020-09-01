@@ -215,6 +215,21 @@ a i.fa {
   }
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 0px;
+}
+
+#navbar {
+  overflow: hidden;
+}
+
+
 /* MARQUEE */
 .promo {
   font-weight: 700;
