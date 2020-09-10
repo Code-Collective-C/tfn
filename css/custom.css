@@ -14,20 +14,30 @@ body {
   color: #f37321;
 }
 .banner {
-  background: url("../images/banner.jpg") no-repeat center center;
+  background: url("../images/banner.jpeg") no-repeat center center;
   background-size: cover;
   padding: 0;
-  height: 400px;
+  height: 500px;
 }
-.temp {
+.scrolled-top {
   float: right;
   position: relative;
   z-index: 1;
 }
+.navbar-scrolled{
+  margin-top: 0px!important;
+}
+.navbar-not-scrolled{
+  margin-top: 376px!important;
+}
+/*#scroll-activate{*/
+/*  float: right;*/
+/*}*/
 .intro {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
 .h1orange h1,
 .h1green h1 {
   font-size: 1.4em;
@@ -35,24 +45,33 @@ body {
   padding-left: 70px;
   text-shadow: -1px -1px 0px #cebfa1;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .h1orange {
   background: #f37321;
   padding: 0;
+  height: 70px;
 }
 .h1green {
   background: #b2c736;
   padding: 0;
+  height: 70px;
 }
 .h1img {
   padding: 8px 5px 0px 15px;
 }
 .h3green {
-  background-color: #b2c635;
-  height: 70px;
+  background-color: #B2C735;
   padding: 0;
   text-align: center;
+  height: 70px;
+}
+.h3blue {
+  background-color: #005BAA;
+  padding: 0;
+  text-align: center;
+  color: white;
+  height: 70px;
 }
 .h3orange {
   background-color: #f37321;
@@ -100,12 +119,12 @@ h4.cta {
   box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.7);
 }
 .frmhld {
-  background-color: #f47321;
+  background-color: #efefef;
   padding-top: 15px;
-  color: #fff;
+  color: #333;
 }
 .form-control.input-sm {
-  background-color: #ff9754;
+  background-color: #ffffff;
   border: none;
   border-radius: 0;
 }
@@ -140,9 +159,6 @@ a i.fa {
   }
 }
 /* NAVBAR */
-.navbar {
-  margin-top: 276px;
-}
 .navbar.navbar-expand-lg.navbar-dark.bg-dark {
   padding: 8px 0px;
 }
@@ -219,13 +235,15 @@ a i.fa {
   position: fixed;
   top: 0;
   width: 100%;
+  float: left;
+  z-index: 9999;
 }
 
 .sticky + .content {
   padding-top: 0px;
 }
 
-#navbar {
+#nav {
   overflow: hidden;
 }
 
@@ -392,12 +410,15 @@ h2 a:hover {
   font-weight: normal;
   text-shadow: none;
 }
-.grnbox {
-  background-color: #b2c736;
-  padding: 0;
+.bluebox {
+  background-color: #005BAA;
+  padding: 10px 0px;
   text-align: center;
   max-height: 80px;
+  color: #fff;
+  font-size: 14px;
 }
+
 .ltrs,
 .chng {
   color: #fff;
@@ -554,32 +575,37 @@ h4.thought::after {
   border-top: none;
 }
 .pica {
-  background: #f2f2f2 url("../images/prodpic_01.jpg") no-repeat top center;
+  background: #f2f2f2 url("../images/tfn_management_01.jpg") no-repeat top center;
   background-size: cover;
   min-height: 150px;
 }
 .picb {
-  background: #f2f2f2 url("../images/prodpic_02.jpg") no-repeat top center;
+  background: #f2f2f2 url("../images/tfn_management_02.jpeg") no-repeat top center;
   background-size: cover;
   min-height: 150px;
 }
 .picc {
-  background: #f2f2f2 url("../images/prodpic_03.jpg") no-repeat top center;
+  background: #f2f2f2 url("../images/prodpic_02.jpg") no-repeat top center;
   background-size: cover;
   min-height: 150px;
 }
 .picd {
-  background: #f2f2f2 url("../images/prodpic_04.jpg") no-repeat top center;
+  background: #f2f2f2 url("../images/prodpic_01.jpg") no-repeat top center;
   background-size: cover;
   min-height: 150px;
 }
 .pice {
-  background: #f2f2f2 url("../images/prodpic_05.jpg") no-repeat top center;
+  background: #f2f2f2 url("../images/prodpic_03.jpg") no-repeat top center;
   background-size: cover;
   min-height: 150px;
 }
 .card-body {
   text-align: center;
+}
+#rw-background{
+  background: #ffffff url("../images/road-wallet-open-screen-phones.jpg") no-repeat bottom right;
+  background-size: cover;
+
 }
 .btn.btn-light.btn-brd {
   border: 1px solid #666;
@@ -588,21 +614,25 @@ h4.thought::after {
   font-size: 14px;
   white-space: normal;
 }
+.btn-orange {
+  background-color: #f37321
+}
 .card-group {
   margin-top: 18px;
 }
 /* FOOTER */
 .footerb {
-  background-color: #000;
+  background-color: #005BAA;
   text-align: center;
   padding: 10px;
 }
 .footera {
   background-color: #f2f2f2;
-  border-top: 5px solid #f37321;
+  border-top: 5px solid #005BAA;
   margin-top: 20px;
+  padding: 10px;
 }
-.col-md-4.logo {
+.col-md-2 .logo {
   text-align: center;
   padding: 10px 20px;
 }
@@ -613,7 +643,7 @@ h4.thought::after {
   font-size: 1.4em;
 }
 .icon1 {
-  background-color: #f47321;
+  background-color: #b3b3b3;
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -658,21 +688,21 @@ h5.testi::after {
 }
 #accordion .card-body {
   color: #333;
-  background: #f2f2f2;
+  background: #fff;
   border-top: none;
   z-index: 1;
-  padding: 8px 15px 8px 15px;
+  padding: 30px 15px;
   text-align: left;
 }
 #accordion .card-header,
 #accordion .card-header:first-child {
-  background: #f47321 url("../images/org_coma50.png") no-repeat left top;
+  background: #efefef url("../images/org_coma50.png") no-repeat left top;
   color: #fff;
   border-radius: 0px;
   padding: 6px 15px;
 }
 .btn.btn-link.btn-accordion {
-  color: #fff;
+  color: #333;
   float: left;
   padding: 0px 0px 0px 30px;
   transition: all 0.3s ease 0s;
@@ -689,7 +719,7 @@ h5.testi::after {
   top: 5px;
   right: 15px;
   font-size: 18px;
-  color: #f7c59f;
+  color: #f37321 ;
 }
 .btn.btn-link.btn-accordion:after {
   content: "\f106";
@@ -699,7 +729,7 @@ h5.testi::after {
   top: 5px;
   right: 15px;
   font-size: 18px;
-  color: #fff;
+  color: #333;
 }
 .btn.btn-link.btn-accordion:before {
   content: "\f059";
@@ -709,7 +739,7 @@ h5.testi::after {
   top: 2px;
   left: 4px;
   font-size: 18px;
-  color: #000;
+  color: #333;
 }
 .btn.btn-link.btn-accordion.collapsed:before {
   content: "\f059";
@@ -719,10 +749,10 @@ h5.testi::after {
   top: 2px;
   left: 4px;
   font-size: 18px;
-  color: #fff;
+  color: #333;
 }
 .btn.btn-link.btn-accordion.collapsed {
-  color: #fff;
+  color: #333;
   float: left;
   padding: 0px 0px 0px 15px;
   transition: all 0.3s ease 0s;
@@ -734,6 +764,9 @@ h5.testi::after {
 /* COMMUNITY */
 .greenbckg {
   background-color: #ddeeaa;
+}
+.greybckg{
+  background-color: #eee;
 }
 .col-9.nb.greenbckg {
   padding: 12px;
@@ -762,7 +795,7 @@ video {
 .modal-header .close {
   padding: 10px;
   margin: -8px 10px -20px auto;
-  color: #f57221;
+  color: #f37321;
 }
 .close {
   opacity: 1;
