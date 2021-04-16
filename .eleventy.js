@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("video");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("admin/config.yml");
+  eleventyConfig.addPassthroughCopy("price");
 
   eleventyConfig.addFilter("markdownify", function(content) {
     var MarkdownIt = require("markdown-it");
